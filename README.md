@@ -6,7 +6,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio](https://your-live-site-link.com)  
+🔗 [View Portfolio](https://neelavra-portfolio.netlify.app/)
 _(Replace with your actual live site URL if deployed on GitHub Pages, Netlify, Vercel, etc.)_
 
 ---

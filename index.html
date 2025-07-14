@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Responsive Portfolio Website</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+
+        <!--navigation menu-->
+        <nav>
+            <div class="nav-container">
+             
+          
+              <!-- desktop links -->
+              <div class="links desktop-links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#services">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+              </div>
+          
+              <!-- hamburger icon (mobile only) -->
+              <i class="fa-solid fa-bars hamburg" id="hamburgBtn"></i>
+            </div>
+          
+            <!-- mobile dropdown -->
+            <div class="dropdown" id="mobileMenu">
+              <a href="#"       onclick="closeMenu()">Home</a>
+              <a href="#about"  onclick="closeMenu()">About</a>
+              <a href="#skills" onclick="closeMenu()">Skills</a>
+              <a href="#services" onclick="closeMenu()">Services</a>
+              <a href="#contact" onclick="closeMenu()">Contact</a>
+              <i class="fa-solid fa-xmark cancel" id="closeBtn"></i>
+            </div>
+          </nav>
+        <section>
+            <div class="main-container">
+                <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                    <img src="linkedin.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos= "fade-left" data-aos-duration="1500" data-aos-delay="700">
+                        Hey I'm
+                        <span>Neelavra Chakraborty</span>
+                    </h1>
+                    <h2 class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                        I'm 
+                        <span class="typewritter-text"> </span>
+                    </h2>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">a dedicated Final-year Engineering student, I am passionate about coding and eager to gain practical experience through internships. My strong foundation in Java language and data structures, combined with a keen interest in software development, has equipped me with the skills necessary to tackle complex coding challenges. I am constantly seeking opportunities to apply my knowledge in real-world scenarios, contributing to innovative projects and collaborating with industry professionals.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Neelavra2004?tab=overview&from=2024-12-01&to=2024-12-31" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                            <i class="fa-brands fa-github"> </i>
+                        </a>
+                        <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                            <i class="fa-brands fa-facebook"> </i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/neelavra-chakraborty-b0b07a295/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                            <i class="fa-brands fa-linkedin"> </i>
+                        </a>
+                    </div>
+                    <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                        <button>Hire me</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--About Section Start-->
+
+        <section class="about" id="about">
+           <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500" > <span>About Me</span> </div>
+            <div class="about-details">
+                <div class="right" >
+                    <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200"><p> I'm Neelavra Chakraborty from Naihati, West Bengal. I completed my 12th grade from Amarkrishna Pathshala, Bhatpara, and am currently pursuing a B.Tech in Information Technology at Guru Nanak Institute of Technology. I'm in my final year and have developed a strong passion for technology, design, and problem-solving. Outside of academics, I enjoy playing outdoor games, drawing, and designing, which help me stay creative and active. I'm always eager to learn new things and explore opportunities that allow me to grow both technically and personally.</p></div>
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <a href="RESUME.pdf" download="Neelavra-Chakraborty-Resume.pdf">
+                        <button>Download CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+           </div> 
+        </section>
+
+
+       <!-- My Skill Section Start -->
+<section class="skills" id="skills">
+    <div class="content">
+      <div class="title" data-aos="fade-up" data-aos-duration="1500">
+        <span>My Skills</span>
+      </div>
+  
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+            Skills Reflect Our Knowledge
+          </div>
+  
+          <h2 data-aos="fade-right" data-aos-delay="300">Technical Skills</h2>
+          <ul class="skills-list" data-aos="fade-up" data-aos-delay="400">
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript </li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>Git & GitHub</li>
+            <li>Bootstrap / Tailwind CSS</li>
+          </ul>
+  
+          <h2 data-aos="fade-right" data-aos-delay="500" style="margin-top: 2rem;">Soft Skills</h2>
+          <ul class="skills-list" data-aos="fade-up" data-aos-delay="600">
+            <li>Team Collaboration</li>
+            <li>Problem Solving</li>
+            <li>Time Management</li>
+            <li>Communication</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+        <!--My Services Section Start-->
+        <section class="services" id="services">
+            <div class="content">
+                <div class="title" data-aos="fade-up" data-aos-duration="1200"> <span>My Services</span></div>
+                <div class="boxes">
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="icon">
+                            <i class="fas fa-desktop"> </i>
+                        </div>
+                        <div class="topic">Web Development</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="topic">Graphic Design</div>
+                    </div>
+                    <div class="box"data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="topic">Digital Marketing</div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                        <div class="icon">
+                            <i class="fab fa-android"></i>
+                        </div>
+                         <div class="topic">UI/UX Design</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Contact Me Section Start-->
+        <section class="contact" id="contact">
+            <div class="content">
+                <div class="title" data-aos="fade-up" data-aos-duration="1500" >
+                    <span>Contact Me</span>
+                </div>
+                <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+                    <a href="https://wa.me/917439614596" target="_blank">
+                    <button>Let's Chat</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="text">
+                <span>Created By
+                    <a href="#">neelavra2004</a> | &#169: 2024 All Rights Reserved</span>
+                    </div>
+        </footer>
+
+        <script src="index.js" defer></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+    </body>
+</html>
